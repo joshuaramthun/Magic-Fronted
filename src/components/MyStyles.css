@@ -1,0 +1,45 @@
+.newdeckbutton {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem; 
+}
+
+.deckcard {
+    width: 15rem;
+}
+
+.image {
+    max-width: 15rem;
+}
+
+.centerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    height: 100%; 
+}
+
+.newDeck {
+
+    width: 25rem;
+}
+
+.cardSize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 25%; 
+    height: 75%;   
+}
+
+.deck {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    will-change: transform;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    touch-action: none;
+}
